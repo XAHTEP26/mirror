@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="ru">
 <title>Experiments</title>
-<link rel="stylesheet" href="/styles.css"/>
+<link rel="stylesheet" href="/workertest/styles.css"/>
 <video autoplay="true" class="video"></video>
-<script src="/script.js"></script>
+<script src="/workertest/script.js"></script>
 <script>
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => {
-    navigator.serviceWorker.register('/sw.js', { scope: '/workertest/' });
+    navigator.serviceWorker.register('/workertest/sw.js');
   });
 }
 </script>
