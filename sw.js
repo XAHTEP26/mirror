@@ -12,12 +12,3 @@ workbox.precaching.precacheAndRoute([
   { url: '/workertest/styles.css', revision: '4' },
   { url: '/workertest/script.js', revision: '4' },
 ]);
-
-if (workbox) {
-  // workbox.routing.registerRoute(
-  //   new RegExp('.*\.js'),
-  //   new workbox.strategies.NetworkFirst()
-  // );
-} else {
-  console.log(`Boo! Workbox didn't load 😬`);
-}
