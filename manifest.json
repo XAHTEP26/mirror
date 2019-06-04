@@ -1,0 +1,13 @@
+{
+  "name": "WorkerTest",
+  "icons": [
+    {
+      "src": "/workertest/icon.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "scope": "/workertest/",
+  "start_url": "/workertest/",
+  "display": "standalone"
+}

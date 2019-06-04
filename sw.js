@@ -10,5 +10,5 @@ workbox.core.setCacheNameDetails({
 workbox.precaching.precacheAndRoute([
   { url: '/workertest/index.html', revision: '4' },
   { url: '/workertest/styles.css', revision: '4' },
-  { url: '/workertest/script.js', revision: '4' },
+  { url: '/workertest/script.js', revision: '4' }
 ]);
