@@ -2,12 +2,11 @@
   "name": "WorkerTest",
   "icons": [
     {
-      "src": "/workertest/icon.png",
+      "src": "icon.png",
       "type": "image/png",
       "sizes": "192x192"
     }
   ],
-  "scope": "/workertest/",
-  "start_url": "/workertest/",
+  "start_url": "/",
   "display": "standalone"
 }
