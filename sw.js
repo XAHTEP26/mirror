@@ -8,7 +8,7 @@ workbox.core.setCacheNameDetails({
 });
 
 workbox.precaching.precacheAndRoute([
-  { url: '/workertest/index.html', revision: '5' },
-  { url: '/workertest/styles.css', revision: '5' },
-  { url: '/workertest/script.js', revision: '5' }
+  { url: 'index.html', revision: '5' },
+  { url: 'styles.css', revision: '5' },
+  { url: 'script.js', revision: '5' }
 ]);
