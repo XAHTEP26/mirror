@@ -1,2 +1,11 @@
-navigator.mediaDevices.getUserMedia({ video: true, audio: false })
-  .then(stream => document.querySelector('.video').srcObject = stream);
+(async function() {
+  document.querySelector(".video").srcObject =
+    await navigator.mediaDevices.getUserMedia({
+      audio: false,
+      video: {
+        width: document.body.clientWidth,
+        height: document.body.clientHeight,
+        facingMode: "user"
+      }
+    });
+})();

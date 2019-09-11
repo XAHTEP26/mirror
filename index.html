@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html lang="ru">
-<title>Workertest</title>
+<html lang="en">
+<title>Mirror</title>
 <link rel="stylesheet" href="styles.css"/>
 <link rel="manifest" href="manifest.json">
 <video autoplay class="video"></video>
 <script src="script.js"></script>
 <script>
-if ('serviceWorker' in navigator) {
-  window.addEventListener('load', () => {
-    navigator.serviceWorker.register('sw.js');
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker.register("sw.js");
   });
 }
 </script>
